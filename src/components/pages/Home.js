@@ -1,4 +1,5 @@
 import React from 'react'
+import Cards from '../Cards'
 import HeroSection from '../HeroSection'
 import Navbar from '../Navbar'
 
@@ -7,6 +8,7 @@ function Home() {
         <div>
             <Navbar />
             <HeroSection />
+            <Cards />
         </div>
     )
 }
